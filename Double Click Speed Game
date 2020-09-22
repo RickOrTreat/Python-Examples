@@ -1,0 +1,35 @@
+import simplegui 
+
+total_ticks = 0
+first_click = True
+counter = 0
+
+
+# Timer handler
+def tick():
+    global counter
+    print counter
+    counter += 1
+    
+# Button handler
+def click():
+    global total_ticks
+    global first_click
+    if first_click == True:
+        timer.start()
+        first_click = False
+    elif first_click == False:
+        global counter
+        timer.stop()
+        print timer
+        first_click = True
+        counter = 0
+        print " "
+
+# Create frame and timer
+frame = simplegui.create_frame("Counter with buttons", 200, 200)
+frame.add_button("Click me", click, 200)
+timer = simplegui.create_timer(10, tick)
+
+# Start timer
+frame.start()
