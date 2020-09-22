@@ -1,0 +1,55 @@
+import random
+
+def number_to_fortune(number):
+    # Fill in your code here.
+    # Use an if...elif...else statement
+    # to check each of the numbers between 0 and 7
+    # and return the fortune as a string.
+    if number == 0:
+        fortune = "Yes, for sure!"
+        return fortune
+    elif number == 1:
+        fortune = "Probably yes."
+        return fortune
+    elif number == 2:
+        fortune = "Seems like yes..."
+        return fortune
+    elif number == 3:
+        fortune = "Definitely not!"
+        return fortune
+    elif number == 4:
+        fortune = "Probably not"
+        return fortune
+    elif number == 5:
+        fortune = "I really doubt it..."
+        return fortune
+    elif number == 6:
+        fortune = "Not sure, check back later!"
+        return fortune
+    elif number == 7:
+        fortune = "I really can't tell"
+        return fortune
+    else:
+        fortune = "Error: Invalid number"
+        return fortune
+    
+
+def mystical_octosphere(question):
+        
+    print "Your question was: " + question
+    
+    print "You shake the mystical octosphere."
+    
+    answer_number = (random.randrange(0, 7))
+    
+    answer_fortune = number_to_fortune(answer_number)
+
+    print "The cloudly liquid swirls, and a reply comes into view."
+    
+    print "The mystical octophere says..."
+    print answer_fortune
+    
+    print " "
+    
+mystical_octosphere("Will I get rich?")
+mystical_octosphere("Are the Cubs going to win the World Series?")
