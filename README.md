@@ -10,7 +10,7 @@ http://www.codeskulptor.org/#user47_WeRKUdAmab_1.py
 # Click counter
 http://www.codeskulptor.org/#user47_3yvGbbGx3r_1.py
 
-# expanding circle
+# Expanding circle
 http://www.codeskulptor.org/#user47_m8hpYzljDh_0.py
 
 # Ball Radius
