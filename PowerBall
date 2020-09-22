@@ -1,0 +1,25 @@
+# Compute and print powerball numbers.
+
+###################################################
+# Powerball function
+# Student should enter function on the next lines.
+
+import random
+
+def powerball():
+    x0 = random.randrange(1, 60)
+    x1 = random.randrange(1, 60)
+    x2 = random.randrange(1, 60)
+    x3 = random.randrange(1, 60)
+    x4 = random.randrange(1, 60)
+    x5 = random.randrange(1, 36)
+    print "Today's numbers are " + str(x0) + ", " + str(x1) + ", " + str(x2) + ", " + str(x3) + ", and " + str(x4) + "." + " The powerball number is " + str(x5) + "."
+    
+    
+###################################################
+# Tests
+# Student should not change this code.
+    
+powerball()
+powerball()
+powerball()
