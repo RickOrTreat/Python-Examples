@@ -1,0 +1,44 @@
+# Convert input text into Pig Latin
+###################################################
+import simplegui 
+operand = " "
+# Pig Latin helper function
+def pig_latin(word):
+    
+    first_letter = word[0]
+    rest_of_word = word[1 : ]
+    
+    if (first_letter == "a" or first_letter == "e" or first_letter == "i" or
+        first_letter == "o" or first_letter == "u"):
+        print word + "way"
+    else:
+        print rest_of_word + first_letter + "ay"
+    
+
+# Handler for input field
+
+def get_input(input):
+    global operand
+    operand = str(input)
+    pig_latin(operand)
+    
+# Create frame and assign callbacks to event handlers
+frame = simplegui.create_frame("Pig Latin translator", 200, 200)
+frame.add_input("Enter", get_input, 100)
+
+# Start the frame animation
+frame.start()
+
+###################################################
+# Test
+get_input("pig")
+get_input("owl")
+get_input("tree")
+
+###################################################
+# Expected output from test
+#igpay
+#owlway
+#reetay
+
+
