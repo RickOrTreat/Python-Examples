@@ -1,7 +1,7 @@
 # Python-Examples
 Python Examples from RICE University
 
-# Move Ball with Mouse
+# Move Ball with Arrows
 http://www.codeskulptor.org/#user47_guW6VK41ii_0.py
 
 # Keyboard Echo
