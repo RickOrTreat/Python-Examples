@@ -1,6 +1,9 @@
 # Python-Examples
 Python Examples from RICE University
 
+# Ball Motion with Timer
+http://www.codeskulptor.org/#user47_RIyLWIycv8_0.py
+
 # Move Ball with Arrows
 http://www.codeskulptor.org/#user47_guW6VK41ii_0.py
 
