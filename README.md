@@ -1,6 +1,9 @@
 # Python-Examples
 Python Examples from RICE University
 
+# Mouse Input Examples
+http://www.codeskulptor.org/#user47_15OWIUzuCu_0.py
+
 # Key Assignment
 http://www.codeskulptor.org/#user47_CblKannoAr_0.py
 
