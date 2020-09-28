@@ -1,6 +1,9 @@
 # Python-Examples
 Python Examples from RICE University
 
+# Example List Methods
+http://www.codeskulptor.org/#user47_ilrg1yhJYR_0.py
+
 # Mouse Input Examples
 http://www.codeskulptor.org/#user47_15OWIUzuCu_0.py
 
