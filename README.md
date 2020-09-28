@@ -1,6 +1,9 @@
 # Python-Examples
 Python Examples from RICE University
 
+# List Methods Pop
+http://www.codeskulptor.org/#user47_eB9k5CyYyu_0.py
+
 # List Methods #2
 http://www.codeskulptor.org/#user47_uTjiNOWcNH_0.py
 
