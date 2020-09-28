@@ -1,6 +1,9 @@
 # Python-Examples
 Python Examples from RICE University
 
+# List Methods #2
+http://www.codeskulptor.org/#user47_uTjiNOWcNH_0.py
+
 # Example List Methods
 http://www.codeskulptor.org/#user47_ilrg1yhJYR_0.py
 
